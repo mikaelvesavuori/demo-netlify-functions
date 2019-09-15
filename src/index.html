@@ -23,7 +23,7 @@
 			const FUNCTION_NAME = 'demo';
 
 			function callDemo() {
-				fetch(`.netlify/functions/${FUNCTION_NAME}`)
+				fetch(`${BASE_URL}.netlify/functions/${FUNCTION_NAME}`)
 					.then(function(response) {
 						return response.json();
 					})
