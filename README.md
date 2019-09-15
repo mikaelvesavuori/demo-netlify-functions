@@ -36,10 +36,6 @@ _Successfully reached function in Insomnia_
 
 Use a REST client like Insomnia or just even your regular browser and go to: [https://{YOUR_SITE}.netlify.com/.netlify/functions/demo](https://{YOUR_SITE}.netlify.com/.netlify/functions/demo)
 
-### From the demo HTML
-
-There is also an `index.html` that's deployed to your root. Clicking the link should display the result on-screen. **NOTE**: For this to work, the site needs to be deployed.
-
 ### Running the function locally
 
 Read the [Netlify Functions documentation](https://www.netlify.com/docs/functions/) for more details on that.
