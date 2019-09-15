@@ -19,8 +19,11 @@
 
 	<body>
 		<script>
+			const BASE_URL = window.location.href;
+			const FUNCTION_NAME = 'demo';
+
 			function callDemo() {
-				fetch(`${window.location.href}.netlify/functions/demo`)
+				fetch(`${BASE_URL}.netlify/functions/${FUNCTION_NAME}`)
 					.then(function(response) {
 						return response.json();
 					})
