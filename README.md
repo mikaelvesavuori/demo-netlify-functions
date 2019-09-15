@@ -4,7 +4,7 @@
 
 This is a super-simple demo of Netlify Functions. It is based from an excellent previous example at [https://luetkemj.github.io/180505/netlify-lambdas-as-simple-as-possible](https://luetkemj.github.io/180505/netlify-lambdas-as-simple-as-possible).
 
-Netlify Functions is a really sweet way of doing serverless functions, without the hassle of learning any of the big cloud platforms. Currently, you get 125 000 function requests and 100 hours of run time for absolutely \$0. No reason to go with old virtual machines any more. Just don't.
+Netlify Functions is a really sweet way of doing serverless functions, without the hassle of learning any of the big cloud platforms. Currently, you get 125 000 function requests and 100 hours of run time for absolutely \$0. No reason to go with old virtual machines any more. Just don't. By the way, Netlify Functions is an abstraction layer on top of Amazon Web Services brilliant Lambda platform.
 
 **Additional resources can be found at:**
 
