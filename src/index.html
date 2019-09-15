@@ -25,10 +25,10 @@
 			async function callDemo() {
 				fetch(`${BASE_URL}.netlify/functions/${FUNCTION_NAME}`)
 					.then(response => response.body)
-					.then(data => {
+					.then(async body => {
+						console.log(body);
+						const data = await body.json();
 						console.log(data);
-						const x = await data.json();
-						console.log(x);
 					});
 			}
 		</script>
