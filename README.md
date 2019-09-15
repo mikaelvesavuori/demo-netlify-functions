@@ -38,7 +38,7 @@ Use a REST client like Insomnia or just even your regular browser and go to: [ht
 
 ### From the demo HTML
 
-There is also an `index.html` that's deployed to your root. On that page, you will find a button that should run the function via the modern Fetch API. That gives you a very vanilla hint at how to use functions in a more realistic scenario. **NOTE**: For this to work, the site needs to be deployed.
+There is also an `index.html` that's deployed to your root. Clicking the link should display the result on-screen. **NOTE**: For this to work, the site needs to be deployed.
 
 ### Running the function locally
 
