@@ -20,7 +20,7 @@
 	<body>
 		<script>
 			function callDemo() {
-				fetch(`${window.location.href}/.netlify/functions/demo`)
+				fetch(`${window.location.href}.netlify/functions/demo`)
 					.then(function(response) {
 						return response.json();
 					})
