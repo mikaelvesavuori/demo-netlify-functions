@@ -14,13 +14,19 @@ Netlify Functions is a really sweet way of doing serverless functions, without t
 
 ## Instructions
 
+Ideally, the **Deploy to Netlify** button above should do the trick for you.
+
 For Netlify Functions to work, you will need to have [Continuous Deployment](https://www.netlify.com/docs/continuous-deployment/) to be activated. In other words, you will need to have a repository (for example on Github) with this code, and then connect it with Netlify.
 
 ## How it looks inside of Netlify
 
 ![Functions overview in Netlify](functions-overview.png)
 
+_Functions overview in Netlify_
+
 ![Successfully reached function in Insomnia](successfully-reached.png)
+
+_Successfully reached function in Insomnia_
 
 ## Running the function
 
