@@ -24,13 +24,9 @@
 
 			async function callDemo() {
 				fetch(`${BASE_URL}.netlify/functions/${FUNCTION_NAME}`)
-					.then(function(response) {
-						console.log(response);
-						return response;
-					})
-					.then(function(json) {
-						console.log('step 2');
-						console.log(JSON.stringify(json));
+					.then(response => response.json())
+					.then(data => {
+						console.log(data);
 					});
 			}
 		</script>
