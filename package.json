@@ -1,0 +1,21 @@
+{
+	"name": "demo-netlify-functions",
+	"version": "1.0.0",
+	"description": "This is a super-simple demo of Netlify Functions. It is based from an excellent previous example at [https://luetkemj.github.io/180505/netlify-lambdas-as-simple-as-possible](https://luetkemj.github.io/180505/netlify-lambdas-as-simple-as-possible).",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "mkdir dist && cp -r src/functions functions && cp src/index.html dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mikaelvesavuori/demo-netlify-functions.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mikaelvesavuori/demo-netlify-functions/issues"
+	},
+	"homepage": "https://github.com/mikaelvesavuori/demo-netlify-functions#readme"
+}
