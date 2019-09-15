@@ -19,14 +19,14 @@
 
 	<body>
 		<script>
-			const BASE_URL = window.location.href;
+			const BASE_URL = 'https://demo-netlify-functions.netlify.com/'; //window.location.href;
 			const FUNCTION_NAME = 'demo';
 
 			async function callDemo() {
 				var response = await fetch(`${BASE_URL}.netlify/functions/${FUNCTION_NAME}`);
+				console.log('response', response);
 				var body = await response.json();
-				var x = JSON.parse(body);
-				console.log(x);
+				console.log('body', body);
 			}
 		</script>
 		<section>
