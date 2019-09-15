@@ -27,6 +27,8 @@
 					.then(response => response.body)
 					.then(data => {
 						console.log(data);
+						const x = await data.json();
+						console.log(x);
 					});
 			}
 		</script>
