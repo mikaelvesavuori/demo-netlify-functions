@@ -18,8 +18,21 @@
 	</head>
 
 	<body>
+		<script>
+			function callDemo() {
+				fetch('/.netlify/functions/demo')
+					.then(function(response) {
+						return response.json();
+					})
+					.then(function(json) {
+						console.log(JSON.stringify(json));
+					});
+			}
+		</script>
 		<section>
 			<h1>Demo: Netlify Functions</h1>
+
+			<button onclick="callDemo()">Call your demo function</button>
 		</section>
 	</body>
 </html>
