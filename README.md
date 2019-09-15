@@ -10,7 +10,7 @@ This is a super-simple demo of Netlify Functions. It is based from an excellent 
 
 ## Instructions
 
-Simply upload this to Netlify. Easiest way for this kind of demo, is by compressing this repo into a ZIP and dragging it to the manual deployment dropzone in the "Deploys" tab. Forms should be automatically detected during deployment.
+For Netlify Functions to work, you will need to have Continuous Integration set-up. In other words, you will need to have a repository (for example on Github) with this code, and then connect it with Netlify.
 
 ## How it looks inside of Netlify
 
