@@ -24,6 +24,8 @@ For Netlify Functions to work, you will need to have [Continuous Deployment](htt
 
 _Functions overview in Netlify_
 
+### Reaching function with Insomnia REST client
+
 ![Successfully reached function in Insomnia](successfully-reached.png)
 
 _Successfully reached function in Insomnia_
