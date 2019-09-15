@@ -18,23 +18,11 @@
 	</head>
 
 	<body>
-		<script>
-			const BASE_URL = 'https://demo-netlify-functions.netlify.com/'; //window.location.href;
-			const FUNCTION_NAME = 'demo';
-
-			async function callDemo() {
-				var response = await fetch(`${BASE_URL}.netlify/functions/${FUNCTION_NAME}`);
-				console.log('response', response);
-				//var body = await response.json();
-				//console.log('body', body);
-				var x = JSON.stringify(response.body);
-				console.log('x', x);
-			}
-		</script>
 		<section>
 			<h1>Demo: Netlify Functions</h1>
 
 			<button onclick="callDemo()">Call your demo function</button>
+			<p><a href="/.netlify/functions/hello">Call your demo function</a></p>
 		</section>
 	</body>
 </html>
